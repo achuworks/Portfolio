@@ -1,5 +1,5 @@
 import React from "react";
-import './stylesi.scss'; 
+import "./stylesi.scss";
 
 const Project = () => {
     const projects = [
@@ -10,8 +10,8 @@ const Project = () => {
         },
         {
             title: "CIS Benchmark Audit tool",
-            description: "Developed an auditing tool for Windows and Linux systems that ensures compliance with CIS benchmarks,enhancing system security posture",
-            link: "https://github.com/quixel200/solid-umbrella"
+            description: "Developed an auditing tool for Windows and Linux systems that ensures compliance with CIS benchmarks, enhancing system security posture",
+            link: "https://github.com/achuworks/CIS-Audit-Tool"
         },
         {
             title: "Aadhar-queue-management-System",
@@ -19,30 +19,36 @@ const Project = () => {
             link: "https://github.com/abarna-abu-s/aadhar-queue-management"
         },
         {
-            title:"Insight-AI:AI for truth broadcasting",
-            description:"AI for Truth Broadcasting leverages artificial intelligence to identify, verify, and disseminate accurate information across platforms. By analyzing data, detecting misinformation, and providing fact-checked content in real-time, it ensures reliable communication, combats fake news, and promotes trust in information sharing.",
-            link:"https://github.com/liyander/Insight-ai"
+            title: "Whatsapp scheduler",
+            description: "This is an Automatic Whatsapp Scheduler, a mini project in which I have provided two files: app.py (which uses a database) and tkinterscheduler.py (a GUI showing the status of scheduled messages). You can use either based on your preference. Required packages: pyautogui, mysql-connector-python.",
+            link: "https://github.com/achuworks/AutomaticWhatsappScheduler"
+        },
+        {
+            title: "Gamified-Education-Platform",
+            description: "A gamified, engaging education platform featuring an interactive dashboard, progress tracker, and more.",
+            link: "https://github.com/achuworks/gamified-education-platform"
         }
-  
     ];
 
     return (
         <div className="projects-container">
             <header className="projects-header">
-                <h1>My Projects</h1>
-                <p>Explore the projects I have worked on.</p>
+            <h1 style={{ fontSize: "24px", fontWeight: "bold" }}>My Projects</h1>
+            <p style={{ fontSize: "16px" }}>Explore the projects I have worked on.</p>
             </header>
 
-            <div className="projects-grid">
-                {projects.map((project, index) => (
-                    <div key={index} className="project-card">
-                        <h3 className="project-title">{project.title}</h3>
-                        <p className="project-description">{project.description}</p>
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                            View Project
-                        </a>
-                    </div>
-                ))}
+            <div className="projects-grid" style={{ maxHeight: "400px", overflowY: "auto" }}>
+                <div className="projects-list">
+                    {projects.map((project, index) => (
+                        <div key={index} className="project-card" style={{ fontSize: "16px", padding: "15px" }}>
+                            <h3 className="project-title" style={{ fontSize: "18px", fontWeight: "bold" }}>{project.title}</h3>
+                            <p className="project-description" style={{ fontSize: "14px" }}>{project.description}</p>
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link" style={{ fontSize: "14px", fontWeight: "bold" }}>
+                                View Project
+                            </a>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

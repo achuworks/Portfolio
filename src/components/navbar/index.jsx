@@ -24,6 +24,7 @@ const data = [
     to: "/project",
   },
   
+ 
   {
     label: "CONTACT",
     to: "/contact",

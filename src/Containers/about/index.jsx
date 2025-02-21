@@ -9,20 +9,11 @@ const About = () => {
         <h1 className="title">About Me!!</h1>
         <h2 className="subtitle">Cyber Security Enthusiast</h2>
         <p>
-          Hi, I’m Archana, a passionate cybersecurity explorer,currently in my second year of pursuing a degree in Computer Science Engineering with a specialization in Cyber Security, enthusiastic
-          learner, and an active CTF player (TryHackMe top 7%) with a knack for
-          solving complex challenges. I’m also a developer in progress, diving
-          deep into the exciting world of software development, and an aspiring
-          full-stack developer with a goal to become a skilled Software
-          Development Engineer (SDE).
+        Hi, I’m Archana, a passionate cybersecurity explorer in my second year of Computer Science Engineering with a focus on Cyber Security. I’m an enthusiastic learner, an active CTF player (TryHackMe top 2%), and a budding developer aiming to become a skilled Software Development Engineer (SDE).
         </p>
+        <p>I participated in HackQuest-2k25 CTF, securing 3rd place in Round 3 and overall 1st position, winning a trophy and ₹10,000 cash prize. Additionally, I won the "Beacons of Brilliance" Award at Hack'24 for designing an interactive learning platform to help students in rural areas.</p>
         <p>
-          With a strong interest in the intersection of security and
-          development, I’m constantly exploring new technologies, building
-          projects, and honing my skills to tackle real-world problems. Whether
-          it’s cracking codes in CTFs, creating secure and efficient
-          applications, or collaborating on innovative solutions, I thrive on
-          pushing boundaries and growing with every challenge.
+        I'm passionate about security and development, always exploring new tech, building projects, and honing my skills. I thrive on cracking codes, creating secure apps, and collaborating on innovative solutions.
         </p>
         <p className="e-mail">achuworks2005@gmail.com</p>
       </div>

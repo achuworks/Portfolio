@@ -8,7 +8,9 @@ import Portfolio from './Containers/portfolio';
 import Project from './Containers/project';
 import Skills from './Containers/skills';
 import Navbar from  './components/navbar';
+
 import NetworkAnimation from './utils/NetworkAnimation';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/project' element={<Project />} />
         <Route path='/skills' element={<Skills />} />
+        
       </Routes>
     </div>
   );
