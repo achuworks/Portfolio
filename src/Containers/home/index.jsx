@@ -31,6 +31,10 @@ const Home=()=>{
                 <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-instagram"></i>
                 </a>
+                <a href="https://medium.com/@achuworks2005" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-medium"></i>
+</a>
+
             </div>
         </div>
     );
